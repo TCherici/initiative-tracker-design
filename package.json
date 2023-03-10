@@ -1,0 +1,15 @@
+{
+  "name": "glassstaff_editor",
+  "version": "1.0.0",
+  "description": "Create character icons for DnD initiative trackers, found on glassstaff.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teo Cherici",
+  "license": "ISC",
+  "dependencies": {
+    "cropperjs": "^1.5.13"
+  },
+  "devDependencies": {}
+}
