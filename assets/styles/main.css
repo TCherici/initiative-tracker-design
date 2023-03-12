@@ -4,29 +4,40 @@ img {
   
     /* This rule is very important, please don't ignore this */
     max-width: 100%;
-  }
-
-.wrapper {
-    position: relative;
-    margin: auto;
-    width: 500px;
-    height: 820px;
 }
 
-.container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.overlay {
+.character-creator {
     display: block;
+}
+
+.portrait-wrapper {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+.portrait {
+    position: relative;
+}
+
+.overlay {
+    margin: auto;
     pointer-events: none;
-    bottom:0;
     position:absolute;
+    bottom:0;
     left: 0;
     right:0;
-    top:5%;
-    width: 150%;
+    top:10%;
+    height:150%;
+    opacity: .7;
+}
+
+.create-button-wrapper {
+    display: block;
+}
+.create-button {
+    margin: auto;
+    display: block;
 }
 
 .cropper-container{

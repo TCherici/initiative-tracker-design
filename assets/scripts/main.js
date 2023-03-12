@@ -7,6 +7,7 @@ const cropper = new Cropper(image, {
     guides: false,
     center: false,
     highlight: false,
+    modal: false,
     cropBoxMovable: false,
     cropBoxResizable: false,
     toggleDragModeOnDblclick: false,
