@@ -9,7 +9,7 @@
   "author": "Teo Cherici",
   "license": "ISC",
   "dependencies": {
-    "cropperjs": "^1.5.13"
-  },
-  "devDependencies": {}
+    "cropperjs": "^1.5.13",
+    "jspdf": "^2.5.1"
+  }
 }
